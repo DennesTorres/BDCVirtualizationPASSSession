@@ -1,0 +1,3 @@
+set MOUNT_CREDENTIALS=fs.azure.abfs.datalakedemomalta=datalakedemomalta.dfs.core.windows.net,fs.azure.account.key.datalakedemomalta.dfs.core.windows.net=Q3jjCUbUpRRlY/XFKUaMabyl25llyrXgMgJaXBI9ysWqdHKDy22JdnAGIbPN6xGd7oSsTDJwjsd+KPo10cwulg==
+
+azdata bdc hdfs mount create --remote-uri abfs://samplecontainer@datalakedemomalta.dfs.core.windows.net/weather --mount-path /weather
